@@ -1,10 +1,10 @@
 # Decoding the Curve: A Quantitative Research Journey into Interest Rate Models and Dynamics
 
-This repository contains the code and report for my quantitative research project focused on understanding and modelling U.S. interest rate term structures. I wanted to get a practical feel for the kinds of analyses a quantitative researcher might perform on a rates desk.
+This repository contains the code and report for my quantitative research focused on understanding and modelling U.S. interest rate term structures. I wanted to get a practical feel for the kinds of analyses a quantitative researcher might perform on a rates desk.
 
 ## What I Walk Through
 
-This was a deep dive for me, covering several key areas:
+This was a good challenge for me covering a number of key areas:
 
 * **Yield Curve Fitting:** Started by fitting observed U.S. Treasury yields using the **Nelson-Siegel model** to get a handle on the curve's level, slope, and curvature.
 * **Dynamic Modelling:** Implemented and calibrated the **one-factor Hull-White model** to explore how the short-term interest rate might evolve and how this model prices bonds. I looked into calibrating it not just to yields but also considering cap volatilities.
@@ -20,7 +20,7 @@ This was a deep dive for me, covering several key areas:
 
 ## Why I Did This
 
-This project was an attempt to apply what I've learned about quantitative finance to a real-world (or as real as I could make it!) problem. It was a great way to get hands-on experience with the entire lifecycle of a quantitative research task, from sourcing data to model validation and interpretation.
+This project was an attempt to apply what I've learned about quantitative finance to a real-world problem. It was a great way to get hands-on experience with the entire lifecycle of a quantitative research task, from sourcing data to model validation and interpretation.
 
 ## Key Libraries Used
 
@@ -33,4 +33,4 @@ This project was an attempt to apply what I've learned about quantitative financ
 * `pandas_datareader` (for fetching FRED data)
 * don't forget to run pip install -r requirements.txt if needed
 
-Feel free to explore the code and the report. Any feedback is welcome!
+Feel free to explore the code and the report. Since I am not a rates QR, any feedback is welcome!
